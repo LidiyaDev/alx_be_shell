@@ -1,9 +1,3 @@
 #!/bin/bash
-if [ -f "hello" ]; then
-  # Set the permissions of the file "hello" to -rwxr--r--
-  chmod 744 hello
-  echo "Permissions for 'hello' set to -rwxr--r--."
-else
-  echo "File 'hello' does not exist."
-fi
-
+chmod 744 hello
+echo "-rwxr--r--"
